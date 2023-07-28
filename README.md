@@ -12,21 +12,22 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this newsletter form and get it looking as close to the design as possible.
+Votre défi consiste à créer ce formulaire de newsletter et à le rendre aussi proche que possible du design.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Vous pouvez utiliser les outils que vous préférez pour vous aider à accomplir cette tâche. Donc, si vous avez quelque chose que vous aimeriez pratiquer, n'hésitez pas à essayer.
 
-Your users should be able to:
+Vos utilisateurs devront être en mesure de :
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Ajouter leur adresse e-mail et soumettre le formulaire.
+- Voir un message de réussite avec leur adresse e-mail une fois le formulaire soumis avec succès.
+- Voir des messages de validation du formulaire dans les cas suivants :
+  - Le champ est laissé vide.
+  - L'adresse e-mail n'est pas correctement formatée.
+- Afficher la mise en page optimale de l'interface en fonction de la taille de l'écran de leur appareil.
+- Voir les états de survol et de focus pour tous les éléments interactifs de la page.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Besoin d'aide pour relever ce défi ? [Rejoignez notre communauté](https://www.frontendmentor.io/community) et posez des questions dans le canal **#help**.
+
 
 ## Where to find everything
 

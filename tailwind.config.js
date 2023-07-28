@@ -19,9 +19,16 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
       },
       fontSize: {
+        'title': '45px',
         'paragraph': '16px',
       },
-
+      objectPosition: {
+        'left-60-top-30': '60% 90%',
+      },
+      borderRadius: {
+        '4xl': '30px',
+        '5xl': '35px',
+      }
     },
   },
   plugins: [],

@@ -11,19 +11,19 @@ export default {
           'tomato': '#ff6257',
         /* NEUTRAL */
           'dark_slate_grey': '#242742',
-          'Charcoal Grey': '#36384e',
-          'Grey': '#9294a0',
-          'White': '#ffffff',
+          'charcoal_grey': '#36384e',
+          'grey': '#9294a0',
+          'white': '#ffffff',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
       fontSize: {
-        'title': '45px',
+        'title': '50px',
         'paragraph': '16px',
       },
       objectPosition: {
-        'left-60-top-30': '60% 90%',
+        'left-60': '60%',
       },
       borderRadius: {
         '4xl': '30px',

@@ -5,7 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        /* PRIMARY */
+          'tomato': '#ff6257',
+        /* NEUTRAL */
+          'dark_slate_grey': '#242742',
+          'Charcoal Grey': '#36384e',
+          'Grey': '#9294a0',
+          'White': '#ffffff',
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      fontSize: {
+        'paragraph': '16px',
+      },
+
+    },
   },
   plugins: [],
 }

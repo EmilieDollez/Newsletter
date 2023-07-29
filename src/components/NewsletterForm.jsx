@@ -55,7 +55,7 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                         </div>
                     
                         <div className="text-tomato"> 
-                            Validate email required 
+                            Valid email required 
                         </div>
                         </>
                     ) 

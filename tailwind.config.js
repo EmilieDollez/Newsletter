@@ -23,6 +23,7 @@ export default {
       fontSize: {
         'title': '40px',
         'paragraph': '12px',
+        'success': '14px',
         'input_title': '8px',
       },
       objectPosition: {

@@ -29,11 +29,12 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
                 </h1>
                 
                 <p className="
-                    mt-6 pr-2
-                    text-paragraph text-dark_slate_grey">
+                    mt-6 pr-1
+                    text-success text-dark_slate_grey
+                    leading-4">
                     A confirmation email has been sent to
                         <span className="
-                            font-bold"> {inputValue}
+                            font-bold text-tomato"> {inputValue}
                         </span>
                     . Please open it and click the button inside to confirm your subscription.
                 </p>

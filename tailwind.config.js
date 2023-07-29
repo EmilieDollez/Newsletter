@@ -10,6 +10,7 @@ export default {
         /* PRIMARY */
           'tomato': '#ff6257',
           'tomato_light': '#ff625740',
+          'tomato_gradient': '#FF3E80',
         /* NEUTRAL */
           'dark_slate_grey': '#242742',
           'charcoal_grey': '#36384e',
@@ -30,6 +31,9 @@ export default {
       borderRadius: {
         '4xl': '30px',
         '5xl': '35px',
+      },
+      boxShadow: {
+        'shadow-tomato':'5px 15px 25px -15px #ff5059'
       }
     },
   },

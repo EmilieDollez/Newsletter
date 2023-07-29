@@ -47,7 +47,19 @@ export default function Form() {
                 </ul>
                 
                 <form className="flex flex-col mt-8 text-input_title font-roboto font-bold">
-                    Email address
+
+                    <div className={`${!isValidEmail ? "flex justify-evenly gap-32" : ""}`}>
+                    { isValidEmail ? (  
+                        <div> Email address </div> ) :
+                        (
+                        <>
+                        <div> Email address </div>
+                        <div className="text-tomato"> Validate email required </div>
+                        </>
+                        ) 
+                    }
+                    </div>
+                    
                     <input type="text" placeholder="email@company.com" value={inputValue} onChange={handleChange} className={`mt-1 py-4 pl-6 border-solid border-2 rounded-md font-normal text-xs ${!isValidEmail ? "text-tomato placeholder-tomato border-tomato bg-tomato_light" : "text-grey placeholder-slate-300 focus:border-dark_slate_grey"} hover:cursor-pointer focus:outline-none `}>
                     </input>
                     <button type="submit" onClick={handleSubmit} className="mt-4 py-4 bg-dark_slate_grey text-white text-paragraph rounded-lg">Subscribe to monthly newsletter</button>

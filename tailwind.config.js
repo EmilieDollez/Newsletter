@@ -9,6 +9,7 @@ export default {
       colors: {
         /* PRIMARY */
           'tomato': '#ff6257',
+          'tomato_light': '#ff625740',
         /* NEUTRAL */
           'dark_slate_grey': '#242742',
           'charcoal_grey': '#36384e',
@@ -19,8 +20,9 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
       },
       fontSize: {
-        'title': '50px',
-        'paragraph': '16px',
+        'title': '40px',
+        'paragraph': '12px',
+        'input_title': '8px',
       },
       objectPosition: {
         'left-60': '60%',

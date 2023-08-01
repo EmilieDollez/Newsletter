@@ -3,16 +3,18 @@ export default function NewsletterDetails() {
     return (
         <>
         <h1 className="
-            lg:mt-8 lg:mb-4
-            text-dark_slate_grey text-title font-bold leading-10">Stay updated!</h1>
-        <p>
+            text-dark_slate_grey text-title font-bold leading-10 md:text-title_desktop lg:text-title_desktop lg:font-bold lg:leading-[56px]">
+            Stay updated!
+        </h1>
+        <p className="
+            text-[16px] font-normal">
             Join 60,000+ product managers receiving monthly updates on: 
         </p>
         <ul className="
-            text-[16px] font-normal lg:text-paragraph"> 
+            text-[16px] font-normal"> 
             <li className="
                 flex items-start gap-x-4 
-                pb-3 lg:pt-2 lg:pb-2 lg:mt-2
+                pb-3
                 leading-6">
                 <img 
                     src="src/assets/images/icon-list.svg"
@@ -22,7 +24,7 @@ export default function NewsletterDetails() {
             <li className="
                 flex items-start gap-x-4
                 leading-6
-                pb-3 lg:pb-2">
+                pb-3">
                 <img 
                     src="src/assets/images/icon-list.svg"
                     className="w-[21px]"></img>

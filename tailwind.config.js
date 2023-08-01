@@ -34,9 +34,10 @@ export default {
       },
       fontSize: {
         'title': '40px',
+        'title_desktop': '56px',
         'paragraph': '12px',
         'success': '14px',
-        'input_title': '8px',
+        'inputTitle': '8px',
       },
       objectPosition: {
         'left-60': '60%',

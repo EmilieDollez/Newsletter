@@ -3,17 +3,12 @@ export default function CardPicture() {
     return (
 
         <div className="
-            w-full    
-            lg:max-w-[48%] 
-            lg:bg-right">
+            w-full">
             
         {/* Image pour desktop */}
             <img 
                 className=" 
-                    max-w-full h-full 
-                    py-6 px-6 
-                    object-cover object-right 
-                    rounded-2xl 
+                    w-[400px]
                     lg:block
                     hidden
                 " 
@@ -21,12 +16,14 @@ export default function CardPicture() {
                 alt="L'image d'un ordinateur" >
             </img>
 
-            {/* Image pour mobile */}
+            {/* Image pour mobile et tablette */}
             <img 
                 className="
                     w-full
-                    object-cover
-                    lg:hidden
+                    md:max-h-[400px]
+                    md:object-cover md:object-top
+                    md:rounded-b-3xl
+                    block lg:hidden
                 " 
                 src="src/assets/images/illustration-sign-up-mobile.svg"
                 alt="L'image d'un ordinateur" >

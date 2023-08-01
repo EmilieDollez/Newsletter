@@ -12,11 +12,11 @@ export default function Card() {
 
     return (
         <div className="card_content
-            flex flex-col-reverse items-center lg:justify-between lg:flex-row lg:gap-x-2
+            flex flex-col-reverse items-center lg:flex-row lg:gap-x-16
             bg-white 
             lg:rounded-5xl
             w-full lg:max-w-[928px] lg:max-h-[641px]
-            m-auto pb-10 lg:pb-0 lg:mx-auto lg:mt-[219px] lg:mb-[220px] 
+            m-auto pb-10 lg:p-6 lg:mx-auto lg:mt-[219px] lg:mb-[220px] 
             ">
             
         {isSuccess ? (

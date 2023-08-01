@@ -42,9 +42,7 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
     return (
 
         <form className="
-            lg:flex lg:flex-col
-            lg:mt-8 
-            text-base font-bold lg:font-roboto lg:text-paragraph lg:font-bold">
+            text-xs font-bold">
 
             <div className=
                 {`${!isValidEmail ? "flex justify-between" : ""}`}>
@@ -52,20 +50,20 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                 { isValidEmail ? (  
                         <div className="
                             pb-2
-                            text-xs"> 
+                            md:text-sm"> 
                                 Email address 
                         </div> 
                     ) : (
                         <>
                         <div className="
                             pb-2
-                            text-xs"> 
+                            md:text-sm"> 
                                 Email address 
                         </div>
                     
                         <div className="
                             pb-2
-                            text-xs text-tomato"> 
+                            text-tomato md:text-sm"> 
                             Valid email required 
                         </div>
                         </>
@@ -79,10 +77,10 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                 value={inputValue} 
                 onChange={handleChange} 
                 className=
-                    {`px-[46px] pl-4 lg:mt-1 lg:py-4 lg:pl-6 
-                    w-full min-h-[56px]
+                    {`px-[46px] pl-4 min-h-[56px] lg:mt-1 lg:pl-6 
+                    w-full 
                     rounded-lg border-[1px] border-solid border-opacity-30 border-grey_25% lg:border-2 lg:rounded-md 
-                    font-normal lg:text-xs lg:text-input_title
+                    font-normal text-base 
                     ${!isValidEmail ? 
                         "text-tomato placeholder-tomato border-tomato bg-tomato_light font-light" 
                         : "placeholder:font-light placeholder:text-grey_25% placeholder:text-opacity-60 focus:border-dark_slate_grey"
@@ -95,10 +93,10 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                 type="submit" 
                 onClick={handleSubmit} 
                 className="
-                    px-[46px] mt-6 lg:mt-4 lg:py-4 
-                    w-full min-h-[56px]
+                    px-auto mt-6 min-h-[56px]
+                    w-full 
                     bg-dark_slate_grey 
-                    text-white lg:text-paragraph
+                    text-white text-base font-normal md:text-base lg:text-base 
                     rounded-lg border-[0.5px] border-solid
                     hover:border-tomato_shadow hover:bg-gradient-to-tr to-tomato_gradient_left from-tomato_gradient_right hover:duration-300 hover:shadow-shadow-tomato">
                     Subscribe to monthly newsletter

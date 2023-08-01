@@ -6,8 +6,8 @@ export default function Newsletter({inputValue, setInputValue, isValidEmail, set
     return (
         <div className="
             flex flex-col gap-y-6 
-            px-10 py-10 mx-6 md:px-24 lg:my-8 lg:pl-14 lg:pr-10
-            w-full lg:w-[52%] lg:max-h-2/3
+            px-6 py-10 mx-6 md:px-40 lg:pl-10 lg:pr-0 lg:mx-0 lg:py-auto
+            w-full
             font-roboto text-dark_slate_grey">
 
             <NewsletterDetails />

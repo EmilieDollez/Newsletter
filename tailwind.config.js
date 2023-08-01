@@ -43,7 +43,7 @@ export default {
       },
       borderRadius: {
         '4xl': '30px',
-        '5xl': '35px',
+        '5xl': '36px',
       },
       boxShadow: {
         'shadow-tomato':'0px 16px 32px 0px #ff615580'

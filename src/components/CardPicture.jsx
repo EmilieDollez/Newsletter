@@ -11,9 +11,9 @@ export default function CardPicture() {
             <img 
                 className=" 
                     max-w-full h-full 
-                    py-5 px-5 
+                    py-6 px-6 
                     object-cover object-right 
-                    rounded-5xl 
+                    rounded-2xl 
                     lg:block
                     hidden
                 " 

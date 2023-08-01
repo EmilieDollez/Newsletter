@@ -10,15 +10,13 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
 
     return (
         <div className="
-            lg:flex lg:flex-col 
-            lg:py-10 lg:px-14 
-            lg:max-w-[400px]
-            lg:max-h-[400px]
-            lg:font-roboto">
+            flex flex-col items-start
+            pt-[149px] pb-10 px-6 lg:py-10 lg:px-14 
+            lg:max-w-[400px] lg:max-h-[400px] lg:font-roboto">
                 
                 <img 
                     src="src/assets/images/icon-success.svg"
-                    className="lg:w-[20%]" >
+                    className="w-16 lg:w-[20%]" >
                 </img>
 
                 <h1 className="
@@ -41,7 +39,7 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
                 <button
                     onClick={handleClick}
                     className="
-                        lg:px-20 lg:py-3 lg:mt-8
+                        mt-[263px] lg:px-20 lg:py-3 lg:mt-8
                         lg:w-full
                         lg:text-paragraph lg:font-bold
                         lg:bg-dark_slate_grey lg:text-white

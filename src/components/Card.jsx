@@ -14,9 +14,9 @@ export default function Card() {
         <div className="card_content
             flex flex-col-reverse items-center lg:justify-between lg:flex-row lg:gap-x-2
             bg-white 
-            lg:rounded-3xl
-            w-full lg:max-w-[722px] lg:max-h-[800px]
-            m-auto pb-10
+            lg:rounded-5xl
+            w-full lg:max-w-[928px] lg:max-h-[641px]
+            m-auto pb-10 lg:pb-0 lg:mx-auto lg:mt-[219px] lg:mb-[220px] 
             ">
             
         {isSuccess ? (

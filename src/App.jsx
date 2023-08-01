@@ -5,7 +5,7 @@ import './styles/index.css'
 
 export default function App() {
   return (
-    <div className=' flex bg-dark_slate_grey h-screen'>
+    <div className=' flex bg-dark_slate_grey'>
       <Card />
     </div>
   )

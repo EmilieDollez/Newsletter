@@ -41,20 +41,31 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
 
     return (
 
-        <form className="flex flex-col mt-8 font-roboto text-paragraph font-bold">
+        <form className="
+            lg:flex lg:flex-col
+            lg:mt-8 
+            text-base font-bold lg:font-roboto lg:text-paragraph lg:font-bold">
 
-            <div className={`${!isValidEmail ? "flex justify-between" : ""}`}>
+            <div className=
+                {`${!isValidEmail ? "flex justify-between" : ""}`}>
+                
                 { isValidEmail ? (  
-                        <div> 
-                            Email address 
+                        <div className="
+                            pb-2
+                            text-xs"> 
+                                Email address 
                         </div> 
                     ) : (
                         <>
-                        <div> 
-                            Email address 
+                        <div className="
+                            pb-2
+                            text-xs"> 
+                                Email address 
                         </div>
                     
-                        <div className="text-tomato"> 
+                        <div className="
+                            pb-2
+                            text-xs text-tomato"> 
                             Valid email required 
                         </div>
                         </>
@@ -67,21 +78,29 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                 placeholder="email@company.com" 
                 value={inputValue} 
                 onChange={handleChange} 
-                className={`mt-1 py-4 pl-6 border-solid border-2 rounded-md font-normal text-xs text-input_title
-                ${!isValidEmail ? "text-tomato placeholder-tomato border-tomato bg-tomato_light" : "text-grey placeholder-slate-300 focus:border-dark_slate_grey"} 
-                hover:cursor-pointer 
-                focus:outline-none `}>
+                className=
+                    {`px-[46px] pl-4 lg:mt-1 lg:py-4 lg:pl-6 
+                    w-full min-h-[56px]
+                    rounded-lg border-[1px] border-solid border-opacity-30 border-grey_25% lg:border-2 lg:rounded-md 
+                    font-normal lg:text-xs lg:text-input_title
+                    ${!isValidEmail ? 
+                        "text-tomato placeholder-tomato border-tomato bg-tomato_light font-light" 
+                        : "placeholder:font-light placeholder:text-grey_25% placeholder:text-opacity-60 focus:border-dark_slate_grey"
+                    } 
+                    hover:cursor-pointer 
+                    focus:outline-none `}>
             </input>
             
             <button 
                 type="submit" 
                 onClick={handleSubmit} 
                 className="
-                    mt-4 py-4 
+                    px-[46px] mt-6 lg:mt-4 lg:py-4 
+                    w-full min-h-[56px]
                     bg-dark_slate_grey 
-                    text-white text-paragraph 
-                    rounded-lg
-                    hover:bg-gradient-to-l to-tomato from-tomato_gradient hover:duration-300 hover:shadow-shadow-tomato">
+                    text-white lg:text-paragraph
+                    rounded-lg border-[0.5px] border-solid
+                    hover:border-tomato_shadow hover:bg-gradient-to-tr to-tomato_gradient_left from-tomato_gradient_right hover:duration-300 hover:shadow-shadow-tomato">
                     Subscribe to monthly newsletter
             </button>
 

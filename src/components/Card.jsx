@@ -11,7 +11,13 @@ export default function Card() {
     const [isSuccess, setIsSuccess] = useState()
 
     return (
-        <div className="card_content flex justify-between gap-x-2 max-w-[722px] max-h-[800px] m-auto bg-white rounded-3xl">
+        <div className="card_content
+            flex flex-col-reverse items-center lg:justify-between lg:flex-row lg:gap-x-2
+            bg-white 
+            lg:rounded-3xl
+            w-full lg:max-w-[722px] lg:max-h-[800px]
+            m-auto pb-10
+            ">
             
         {isSuccess ? (
  

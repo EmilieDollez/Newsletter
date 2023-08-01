@@ -2,19 +2,40 @@ export default function NewsletterDetails() {
 
     return (
         <>
-        <h1 className="form_title text-title font-bold font-roboto mt-8 mb-4 ">Stay updated!</h1>
-        <ul className="text-paragraph"> Join 60,000+ product managers receiving monthly updates on:
-            <li className="flex gap-x-3 pt-2 pb-2 mt-2">
-                <img src="src/assets/images/icon-list.svg"></img>
-                Product discovery and building what matters
+        <h1 className="
+            lg:mt-8 lg:mb-4
+            text-dark_slate_grey text-title font-bold leading-10">Stay updated!</h1>
+        <p>
+            Join 60,000+ product managers receiving monthly updates on: 
+        </p>
+        <ul className="
+            text-[16px] font-normal lg:text-paragraph"> 
+            <li className="
+                flex items-start gap-x-4 
+                pb-3 lg:pt-2 lg:pb-2 lg:mt-2
+                leading-6">
+                <img 
+                    src="src/assets/images/icon-list.svg"
+                    className="w-[21px]"></img>
+                    Product discovery and building what matters
             </li>
-            <li className="flex gap-x-3 pb-2">
-                <img src="src/assets/images/icon-list.svg"></img>
-                Measuring to ensure updates are a success
+            <li className="
+                flex items-start gap-x-4
+                leading-6
+                pb-3 lg:pb-2">
+                <img 
+                    src="src/assets/images/icon-list.svg"
+                    className="w-[21px]"></img>
+                    Measuring to ensure updates are a success
             </li>
-            <li className="flex gap-x-3">
-                <img src="src/assets/images/icon-list.svg"></img>
-                And much more!
+            <li className="
+                flex items-start gap-x-4 
+                mb-4 
+                leading-6"> 
+                <img 
+                    src="src/assets/images/icon-list.svg"
+                    className="w-[21px]"></img>
+                    And much more!
             </li>
         </ul>
         </>

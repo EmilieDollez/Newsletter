@@ -7,11 +7,11 @@ export default function NewsletterDetails() {
             Stay updated!
         </h1>
         <p className="
-            text-[16px] font-normal">
+            text-base font-normal">
             Join 60,000+ product managers receiving monthly updates on: 
         </p>
         <ul className="
-            text-[16px] font-normal"> 
+            text-base font-normal"> 
             <li className="
                 flex items-start gap-x-4 
                 pb-3

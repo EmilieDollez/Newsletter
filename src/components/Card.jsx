@@ -12,7 +12,7 @@ export default function Card() {
 
     return (
         <div className=
-        {`flex flex-col-reverse items-center lg:flex-row lg:gap-x-16 bg-white lg:rounded-4xl w-full m-auto pb-10 lg:mx-auto lg:mt-[219px] lg:mb-[220px]"
+        {`flex flex-col-reverse items-center lg:flex-row lg:gap-x-16 bg-white lg:rounded-4xl w-full m-auto pb-10 lg:mx-auto "
             ${isSuccess ? "lg:max-w-[504px] lg:max-h-[520px] lg:p-0" : "lg:max-w-[928px] lg:max-h-[641px] lg:p-6"}`}>
             
             

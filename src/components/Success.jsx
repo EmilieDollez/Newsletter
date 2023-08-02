@@ -17,6 +17,7 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
                 
                 <img 
                     src="/images/icon-success.svg"
+                    alt="Une icone de validation pour l'enregistrement réussi"
                     className="
                         w-16 lg:w-[64px]" >
                 </img>

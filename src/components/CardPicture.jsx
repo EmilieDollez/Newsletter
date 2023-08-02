@@ -13,7 +13,7 @@ export default function CardPicture() {
                     hidden
                 "
                 src="/images/illustration-sign-up-desktop.svg"
-                alt="L'image d'un ordinateur" >
+                alt="Un ordinateur et une tablette" >
             </img>
 
             {/* Image pour mobile et tablette */}
@@ -26,7 +26,7 @@ export default function CardPicture() {
                     block lg:hidden
                 " 
                 src="/images/illustration-sign-up-mobile.svg"
-                alt="L'image d'un ordinateur" >
+                alt="Un ordinateur et une tablette" >
             </img>
         </div>
     )

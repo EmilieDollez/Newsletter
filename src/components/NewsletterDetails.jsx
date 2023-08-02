@@ -18,6 +18,7 @@ export default function NewsletterDetails() {
                 leading-6">
                 <img 
                     src="/images/icon-list.svg"
+                    alt="Une puce de validation"
                     className="w-[21px]"></img>
                     Product discovery and building what matters
             </li>
@@ -27,6 +28,7 @@ export default function NewsletterDetails() {
                 pb-3">
                 <img 
                     src="/images/icon-list.svg"
+                    alt="Une puce de validation"
                     className="w-[21px]"></img>
                     Measuring to ensure updates are a success
             </li>
@@ -36,6 +38,7 @@ export default function NewsletterDetails() {
                 leading-6"> 
                 <img 
                     src="/images/icon-list.svg"
+                    alt="Une puce de validation"
                     className="w-[21px]"></img>
                     And much more!
             </li>

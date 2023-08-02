@@ -11,7 +11,7 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
     return (
         <div className="
             flex flex-col items-start gap-6 
-            pt-[149px] pb-10 px-6 lg:pt-12 lg:px-16 lg:mx-auto
+            pt-[149px] pb-10 px-6 md:px-24 lg:pt-12 lg:px-16 lg:mx-auto
             lg:max-w-[504px] lg:max-h-[520px] 
             text-dark_slate_grey font-roboto font-normal">
                 

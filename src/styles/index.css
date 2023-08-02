@@ -3,6 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* bob {
-    background:#242742
-} */
+bob {
+    background:rgb(54, 56, 78)
+}

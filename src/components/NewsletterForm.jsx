@@ -1,15 +1,9 @@
-import { useState } from "react";
-
 export default function NewsletterForm({inputValue, setInputValue, isValidEmail, setIsValidEmail, IsSuccess, setIsSuccess}) {
-    
-        console.log('email entré', inputValue)
 
         const handleChange = (event) => {
             setIsValidEmail(true)
             setInputValue(event.target.value)
         }
-
-        console.log('email valide ?', isValidEmail)
 
         const validateEmail = (email) => {
             const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
@@ -79,11 +73,11 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                 className=
                     {`px-[46px] pl-4 min-h-[56px] lg:mt-1 lg:pl-6 
                     w-full 
-                    rounded-lg border-[1px] border-solid border-opacity-30 border-grey_25% lg:border-2 lg:rounded-md 
+                    rounded-lg border-[1px] border-solid border-opacity-30 border-grey-25% lg:border-2 lg:rounded-md 
                     font-normal text-base 
                     ${!isValidEmail ? 
-                        "text-tomato placeholder-tomato border-tomato bg-tomato_light font-light" 
-                        : "placeholder:font-light placeholder:text-grey_25% placeholder:text-opacity-60 focus:border-dark_slate_grey"
+                        "text-tomato placeholder-tomato border-tomato bg-tomato_light font-light focus:border-tomato" 
+                        : "placeholder:font-light placeholder:text-grey-25% placeholder:text-opacity-60 focus:border-dark_slate_grey"
                     } 
                     hover:cursor-pointer 
                     focus:outline-none `}>
@@ -98,7 +92,7 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
                     bg-dark_slate_grey 
                     text-white text-base font-normal md:text-base lg:text-base 
                     rounded-lg border-[0.5px] border-solid
-                    hover:border-tomato_shadow hover:bg-gradient-to-tr to-tomato_gradient_left from-tomato_gradient_right hover:duration-300 hover:shadow-shadow-tomato">
+                    hover:border-tomato_shadow hover:bg-gradient-to-tr to-tomato_gradient_left from-tomato_gradient_right hover:duration-300 hover:shadow-shadow_tomato">
                     Subscribe to monthly newsletter
             </button>
 

@@ -10,41 +10,41 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
 
     return (
         <div className="
-            flex flex-col items-start gap-6 lg:justify-center
-            pt-[149px] pb-10 px-6 lg:py-10 lg:px-14 lg:mx-auto
+            flex flex-col items-start gap-6 lg:gap-6 
+            pt-[149px] pb-10 px-6 lg:pt-12 lg:px-16 lg:mx-auto
             lg:max-w-[504px] lg:max-h-[520px] 
             text-dark_slate_grey font-roboto font-normal">
                 
                 <img 
                     src="src/assets/images/icon-success.svg"
-                    className="w-16 lg:w-[20%]" >
+                    className="
+                        w-16 lg:w-[64px]" >
                 </img>
 
                 <h1 className="
-                    pt-4 lg:pt-5 lg:mt-3
-                    text-title font-bold leading-10">
+                    pt-4
+                    text-title font-bold leading-10 lg:text-[56px] lg:leading-[56px]">
                     Thanks for subscribing! 
                 </h1>
                 
                 <p className="
-                    lg:mt-6 lg:pr-1
-                    text-base lg:text-sm
-                    lg:leading-4">
+                    text-base 
+                    ">
                     A confirmation email has been sent to
                         <span className="
-                            font-bold text-tomato"> ash@loremcompany.com{inputValue}
+                            font-bold text-tomato"> {inputValue}
                         </span>
                     . Please open it and click the button inside to confirm your subscription.
                 </p>
                 <button
                     onClick={handleClick}
                     className="
-                        mt-[239px] pt-[18px] pb-[14px] lg:px-20 lg:py-3 lg:mt-8
+                        mt-[239px] pt-[18px] pb-[14px] lg:mt-4 lg:mb-6
                         w-full
-                        text-base text-white lg:text-paragraph lg:font-bold
+                        text-base text-white lg:text-xs lg:font-bold
                         bg-dark_slate_grey
                         rounded-lg lg:rounded-md
-                        lg:hover:bg-gradient-to-l lg:to-tomato lg:from-tomato_gradient lg:hover:duration-300 lg:hover:shadow-shadow-tomato">
+                        hover:border-tomato_shadow hover:bg-gradient-to-tr to-tomato_gradient_left from-tomato_gradient_right hover:duration-300 hover:shadow-shadow_tomato">
                     Dismiss message
                 </button>
 

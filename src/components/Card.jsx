@@ -11,15 +11,12 @@ export default function Card() {
     const [isSuccess, setIsSuccess] = useState()
 
     return (
-        <div className="card_content
-            flex flex-col-reverse items-center lg:flex-row lg:gap-x-16
-            bg-white 
-            lg:rounded-5xl
-            w-full lg:max-w-[928px] lg:max-h-[641px]
-            m-auto pb-10 lg:p-6 lg:mx-auto lg:mt-[219px] lg:mb-[220px] 
-            ">
+        <div className=
+        {`flex flex-col-reverse items-center lg:flex-row lg:gap-x-16 bg-white lg:rounded-4xl w-full m-auto pb-10 lg:mx-auto lg:mt-[219px] lg:mb-[220px]"
+            ${isSuccess ? "lg:max-w-[504px] lg:max-h-[520px] lg:p-0" : "lg:max-w-[928px] lg:max-h-[641px] lg:p-6"}`}>
             
-        {/* {isSuccess ? ( */}
+            
+        {isSuccess ? (
  
              <Success 
                 inputValue = {inputValue}
@@ -27,7 +24,7 @@ export default function Card() {
                 setInputValue = {setInputValue} 
             />
 
-         {/* ):(
+         ):(
             <>
             <Newsletter 
                inputValue = {inputValue}
@@ -41,7 +38,7 @@ export default function Card() {
             <CardPicture />  
             </>
 
-        )} */}
+        )}
         </div>
     )
 }

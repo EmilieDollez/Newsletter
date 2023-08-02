@@ -16,7 +16,7 @@ export default function Success({inputValue, setInputValue, setIsSuccess}) {
             text-dark_slate_grey font-roboto font-normal">
                 
                 <img 
-                    src="src/assets/images/icon-success.svg"
+                    src="./src/assets/images/icon-success.svg"
                     className="
                         w-16 lg:w-[64px]" >
                 </img>

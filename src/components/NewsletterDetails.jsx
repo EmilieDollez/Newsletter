@@ -17,7 +17,7 @@ export default function NewsletterDetails() {
                 pb-3
                 leading-6">
                 <img 
-                    src="src/assets/images/icon-list.svg"
+                    src="./src/assets/images/icon-list.svg"
                     className="w-[21px]"></img>
                     Product discovery and building what matters
             </li>
@@ -26,7 +26,7 @@ export default function NewsletterDetails() {
                 leading-6
                 pb-3">
                 <img 
-                    src="src/assets/images/icon-list.svg"
+                    src="./src/assets/images/icon-list.svg"
                     className="w-[21px]"></img>
                     Measuring to ensure updates are a success
             </li>
@@ -35,7 +35,7 @@ export default function NewsletterDetails() {
                 mb-4 
                 leading-6"> 
                 <img 
-                    src="src/assets/images/icon-list.svg"
+                    src="./src/assets/images/icon-list.svg"
                     className="w-[21px]"></img>
                     And much more!
             </li>

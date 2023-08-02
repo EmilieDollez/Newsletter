@@ -19,7 +19,7 @@ export default function Card() {
             m-auto pb-10 lg:p-6 lg:mx-auto lg:mt-[219px] lg:mb-[220px] 
             ">
             
-        {isSuccess ? (
+        {/* {isSuccess ? ( */}
  
              <Success 
                 inputValue = {inputValue}
@@ -27,7 +27,7 @@ export default function Card() {
                 setInputValue = {setInputValue} 
             />
 
-        ):(
+         {/* ):(
             <>
             <Newsletter 
                inputValue = {inputValue}
@@ -41,7 +41,7 @@ export default function Card() {
             <CardPicture />  
             </>
 
-        )}
+        )} */}
         </div>
     )
 }

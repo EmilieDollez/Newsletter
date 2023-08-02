@@ -5,7 +5,7 @@ import './styles/index.css'
 
 export default function App() {
   return (
-    <div className=' lg:flex lg:items-center h-screen'>
+    <div className="lg:flex lg:items-center h-screen">
       <Card />
     </div>
   )

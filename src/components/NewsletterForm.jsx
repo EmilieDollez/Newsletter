@@ -36,7 +36,7 @@ export default function NewsletterForm({inputValue, setInputValue, isValidEmail,
     return (
 
         <form className="
-            text-xs font-bold">
+            text-xs font-medium">
 
             <div className=
                 {`${!isValidEmail ? "flex justify-between" : ""}`}>

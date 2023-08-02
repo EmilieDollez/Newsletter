@@ -29,6 +29,9 @@ export default {
         'title': '40px',
         'title_desktop': '56px',
       },
+      lineHeight: {
+        '18': '18px',
+      },
       borderRadius: {
         '4xl': '36px',
       },

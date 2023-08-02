@@ -2,7 +2,7 @@ export default function Footer() {
 
     return (
        <div className="
-            flex flex-col items-center sticky bottom-0
+            flex flex-col items-center
             pb-2
             text-dark_slate_grey text-xs lg:text-grey lg:text-sm">
         <p>

@@ -12,7 +12,7 @@ export default function CardPicture() {
                     lg:block
                     hidden
                 "
-                src="public/images/illustration-sign-up-desktop.svg"
+                src="/images/illustration-sign-up-desktop.svg"
                 alt="L'image d'un ordinateur" >
             </img>
 
@@ -25,7 +25,7 @@ export default function CardPicture() {
                     md:rounded-b-3xl
                     block lg:hidden
                 " 
-                src="public/images/illustration-sign-up-mobile.svg"
+                src="/images/illustration-sign-up-mobile.svg"
                 alt="L'image d'un ordinateur" >
             </img>
         </div>

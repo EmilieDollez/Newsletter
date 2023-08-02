@@ -7,12 +7,12 @@ export default function CardPicture() {
             
         {/* Image pour desktop */}
             <img 
-                className=" 
+                className="
                     w-[400px]
                     lg:block
                     hidden
-                " 
-                src="./src/assets/images/illustration-sign-up-desktop.svg"
+                "
+                src="public/images/illustration-sign-up-desktop.svg"
                 alt="L'image d'un ordinateur" >
             </img>
 
@@ -25,7 +25,7 @@ export default function CardPicture() {
                     md:rounded-b-3xl
                     block lg:hidden
                 " 
-                src="./src/assets/images/illustration-sign-up-mobile.svg"
+                src="public/images/illustration-sign-up-mobile.svg"
                 alt="L'image d'un ordinateur" >
             </img>
         </div>
